@@ -1,0 +1,15 @@
+.game-board {
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+
+.cell {
+  border: 1px solid #555;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;  
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
